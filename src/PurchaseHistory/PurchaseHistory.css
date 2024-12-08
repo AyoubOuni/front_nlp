@@ -1,0 +1,169 @@
+#all{
+    background-repeat: no-repeat;
+    z-index: 10;
+    height: 100%;
+    min-height: 100vh;
+    margin: 0px;
+
+
+}
+
+
+
+.purchase-history-page {
+  background-image: url('bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+  padding: 20px;
+  color: white;
+}
+
+
+.nice {
+  background-color: rgb(0 ,0 ,0 , 0.63); /* Fully transparent background */
+  border: 2px solid rgba(255, 255, 255, 0.5); /* Optional: Add a subtle border */
+  border-radius: 10px;
+  color: white; /* Ensure text inside form is white for readability */
+}
+
+form {
+  background-color: rgb(0 ,0 ,0 , 0.63); /* Fully transparent background */
+  border: 2px solid rgba(255, 255, 255, 0.5); /* Optional: Add a subtle border */
+  border-radius: 10px;
+  color: white; /* Ensure text inside form is white for readability */
+}
+
+input.form-control {
+  background-color: rgba(255, 255, 255, 0.2); /* Slightly transparent input fields */
+  color: white; /* White text for better visibility */
+  border: 1px solid rgba(255, 255, 255, 0.5); /* Light border for inputs */
+}
+
+input.form-control::placeholder {
+  color: rgba(255, 255, 255, 0.7); /* Lighter placeholder text color */
+}
+
+button {
+  font-weight: bold;
+}
+
+.sub{
+  position: relative;
+  bottom: 56px;
+  right: 98px;
+}
+
+.weather-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .weather-app form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .weather-app input[type="text"] {
+    width: 200px;
+    height: 30px;
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+  }
+  
+  .weather-app button[type="submit"] {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(21, 96, 112);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .weather-info {
+    margin-top: 20px;
+    text-align: center;
+  }
+ 
+  
+  .hours {
+    float: left; 
+    font-size: 144px;
+    padding: 20px;
+    color: #cccccc;
+  }
+  
+  .minutes {
+    color: #cccccc;
+    float: left;
+    font-size: 144px;
+    padding: 20px;
+  }
+  
+  .seconds {
+    color: #cccccc;
+    float: left;
+    font-size: 144px;
+    padding: 20px;
+  }
+  .white{
+
+    font-size: 20px !important;
+  }
+ 
+  
+  
+  
+  .bg{
+    background-color: transparent;
+opacity: 1;
+  }
+  @media screen and (max-width: 430px){
+    .wid{
+      width:280px;
+    }
+
+  
+    .weather-app input[type="text"] {
+      width: 160px;
+      height: 30px;
+      margin-right: 10px;
+      padding: 5px;
+      border-radius: 5px;
+      border: 1px solid gray;
+    }
+    
+    .weather-app button[type="submit"] {
+      width: 85px;
+      height: 30px;
+      background-color: rgb(21, 96, 112);;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    #all{
+      background-size: cover;
+      background-size: auto 100%;
+    }
+    .btm{
+      bottom:1px !important;
+      font-size: 13px !important;
+      font-weight: 500 !important;
+    }
+    .size{
+      font-size: 17px !important;
+    }
+   
+
+  }
+
+
+  
